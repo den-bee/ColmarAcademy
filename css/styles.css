@@ -36,7 +36,6 @@ nav a {
 .top-wrapper {
   background-color: #dbcece;
   display: flex;
-
 }
 
 .top-one-banner {
@@ -174,11 +173,125 @@ nav a {
 /* Mid Section */
 
 .mid-section {
+  border: 1px solid green;
+  background-color: #dbcece;
+}
+
+.mid-headline {
+  text-align: center;
+  margin: 32px 0;
+  border: 1px solid red;
+}
+
+.images-container {
+  margin: 0 72px 32px 72px;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 300px;
+  text-align: left;
+  margin: 0 32px 32px 0;
+  border: 1px solid red;
+  background-color: white;
+}
+
+.image h5 {
+  padding: 16px 16px 0 16px;
+}
+
+.image p {
+  padding: 8px 16px;
+}
+
+/* Bottom Section */
+/* Column One */
+.bottom-section {
+  display: flex;
+  border: 1px solid green;
+}
+
+.bottom-headline {
+  margin: 32px 0;
+  text-align: center;
+}
+
+.bottom-column-one {
+  border: 1px solid green;
+  margin: 32px 24px;
+  flex: 60%
+}
+
+.bottom-video {
 
 }
 
+.bottom-text h3 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 
+.bottom-text p {
+  margin-bottom: 32px;
+}
 
+/* Column Two */
+.bottom-column-two {
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 10px;
+  border: 1px solid red;
+}
+
+.bottom-column-two h5 {
+  margin-bottom: 8px;
+}
+
+.bottom-column-two p {
+  margin-bottom: 8px;
+}
+
+.fisma-row {
+  flex: 40%;
+  display: flex;
+}
+
+.fisma-img {
+  width: 35%;
+  margin: 20px 30px 0 0;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.fisma-text {
+  width: 65%;
+  flex: 1 1 auto;
+  margin-top: 30px;
+}
+
+.now-row {
+  flex: 40%;
+  display: flex;
+}
+
+.now-img {
+  width: 35%;
+  margin: 20px 30px 0 0;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.now-text {
+  width: 65%;
+  flex: 1 1 auto;
+  margin-top: 30px;
+}
 
 /* Colours */
 .grey {
