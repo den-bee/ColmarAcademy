@@ -122,14 +122,14 @@ nav a {
 }
 
 .orientation-img {
-  width: 35%;
+  flex: 35%;
   margin: 20px 30px 0 0;
   object-fit: contain;
   align-self: flex-start;
 }
 
 .orientation-text {
-  width: 65%;
+  flex: 65%;
   flex: 1 1 auto;
   margin-top: 30px;
 }
@@ -140,14 +140,14 @@ nav a {
 }
 
 .campus-img {
-  width: 35%;
+  flex: 35%;
   margin: 20px 30px 0 0;
   object-fit: contain;
   align-self: flex-start;
 }
 
 .campus-text {
-  width: 65%;
+  flex: 65%;
   flex: 1 1 auto;
   margin-top: 30px;
 }
@@ -158,14 +158,14 @@ nav a {
 }
 
 .guest-img {
-  width: 35%;
+  flex: 35%;
   margin: 20px 30px 0 0;
   object-fit: contain;
   align-self: flex-start;
 }
 
 .guest-text {
-  width: 65%;
+  flex: 65%;
   flex: 1 1 auto;
   margin-top: 30px;
 }
@@ -226,8 +226,8 @@ nav a {
   flex: 60%
 }
 
-.bottom-video {
-
+.bottom-video video {
+  max-width: 100%;
 }
 
 .bottom-text h3 {
@@ -263,14 +263,14 @@ nav a {
 }
 
 .fisma-img {
-  width: 35%;
+  flex: 35%;
   margin: 20px 30px 0 0;
   object-fit: contain;
   align-self: flex-start;
 }
 
 .fisma-text {
-  width: 65%;
+  flex: 65%;
   flex: 1 1 auto;
   margin-top: 30px;
 }
@@ -281,14 +281,14 @@ nav a {
 }
 
 .now-img {
-  width: 35%;
+  flex: 35%;
   margin: 20px 30px 0 0;
   object-fit: contain;
   align-self: flex-start;
 }
 
 .now-text {
-  width: 65%;
+  flex: 65%;
   flex: 1 1 auto;
   margin-top: 30px;
 }
