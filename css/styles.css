@@ -3,7 +3,14 @@ html {
 }
 
 body {
-  margin: 0 10% 0 10%;
+  font-family: "Roboto", sans-serif;
+  color: #303030;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
 /* Header Section */
@@ -30,6 +37,7 @@ nav a {
   text-decoration: none;
   color: black;
   padding: 0 8px;
+  font-size: 1.2rem;
 }
 
 /* Top Section One */
@@ -51,6 +59,16 @@ nav a {
   padding-left: 24px;
   flex: 40%;
   border: 1px solid red;
+}
+
+.top-section-one h2 {
+  font-weight: bolder;
+  margin-bottom: 16px;
+}
+
+.top-section-one p {
+  font-weight: bold;
+  margin-bottom: 16px;
 }
 
 .top-one-button {
@@ -81,19 +99,19 @@ nav a {
   flex: 60%
 }
 
-.top-two-image {
-}
-
-.top-two-text {
-}
-
 .top-two-text h3 {
   margin-top: 24px;
   margin-bottom: 24px;
+  font-weight: bolder;
 }
 
 .top-two-text p {
   margin-bottom: 32px;
+  font-weight: 300;
+}
+
+.top-two-text .name {
+  font-weight: 500;
 }
 
 /* Column Two */
@@ -102,33 +120,32 @@ nav a {
   flex: wrap;
   flex-direction: column;
   width: 40%;
-  margin-top: 10px;
   border: 1px solid red;
 }
 
 .top-two-colum-two h5 {
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
 .top-two-column-two p {
   margin-bottom: 8px;
+  font-weight: 300;
 }
 
 .orientation-row {
   flex: 60%;
   display: flex;
-  margin-bottom: 25px;
 }
 
 .orientation-img {
-  flex: 35%;
+  width: 35%;
   margin: 20px 30px 0 0;
-  object-fit: contain;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .orientation-text {
-  flex: 65%;
+  width: 65%;
   margin-top: 30px;
 }
 
@@ -138,14 +155,13 @@ nav a {
 }
 
 .campus-img {
-  flex: 35%;
+  width: 35%;
   margin: 20px 30px 0 0;
-  object-fit: contain;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .campus-text {
-  flex: 65%;
+  width: 65%;
   margin-top: 30px;
 }
 
@@ -155,14 +171,14 @@ nav a {
 }
 
 .guest-img {
-  flex: 35%;
+  width: 35%;
   margin: 20px 30px 0 0;
   object-fit: contain;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .guest-text {
-  flex: 65%;
+  width: 65%;
   margin-top: 30px;
 }
 
