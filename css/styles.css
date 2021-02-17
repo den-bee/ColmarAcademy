@@ -10,6 +10,7 @@ body {
 
 header {
   height: 64px;
+  padding-top: 16px;
 }
 
 .logo {
@@ -28,13 +29,13 @@ nav {
 nav a {
   text-decoration: none;
   color: black;
-  padding: 0 16px;
+  padding: 0 8px;
 }
 
 /* Top Section One */
 
 .top-wrapper {
-  background-color: #dbcece;
+  background-color: #f2eeed;
   display: flex;
 }
 
@@ -52,11 +53,8 @@ nav a {
   border: 1px solid red;
 }
 
-.top-one-text {
-}
-
 .top-one-button {
-  background-color: gray;
+  background-color: #3d3b3b;
   margin-top: 16px;
   padding: 8px;
   text-align: center;
@@ -119,6 +117,7 @@ nav a {
 .orientation-row {
   flex: 60%;
   display: flex;
+  margin-bottom: 25px;
 }
 
 .orientation-img {
@@ -130,7 +129,6 @@ nav a {
 
 .orientation-text {
   flex: 65%;
-  flex: 1 1 auto;
   margin-top: 30px;
 }
 
@@ -148,7 +146,6 @@ nav a {
 
 .campus-text {
   flex: 65%;
-  flex: 1 1 auto;
   margin-top: 30px;
 }
 
@@ -166,7 +163,6 @@ nav a {
 
 .guest-text {
   flex: 65%;
-  flex: 1 1 auto;
   margin-top: 30px;
 }
 
@@ -258,8 +254,8 @@ nav a {
 }
 
 .fisma-row {
-  flex: 40%;
   display: flex;
+  margin-bottom: 65px;
 }
 
 .fisma-img {
@@ -271,12 +267,10 @@ nav a {
 
 .fisma-text {
   flex: 65%;
-  flex: 1 1 auto;
   margin-top: 30px;
 }
 
 .now-row {
-  flex: 40%;
   display: flex;
 }
 
@@ -289,11 +283,30 @@ nav a {
 
 .now-text {
   flex: 65%;
-  flex: 1 1 auto;
   margin-top: 30px;
 }
 
-/* Colours */
-.grey {
-  background-color: #dbcece;
+/* Footer Section */
+
+footer {
+  height: 64px;
+}
+
+.copyright {
+  border: 3px solid green;
+  float: left;
+  margin-top: 16px;
+  margin-left: 24px;
+}
+
+.terms {
+  display: inline;
+  float: right;
+  margin-right: 24px;
+  margin-top: 16px;
+}
+
+.terms p {
+  display: inline;
+  padding-left: 10px;
 }
