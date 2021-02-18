@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #303030;
+  color: #4A4A4A;
 }
 
 .wrapper {
@@ -21,7 +21,6 @@ header {
 }
 
 .logo {
-  border: 3px solid green;
   float: left;
   height: 32px;
   margin-left: 24px;
@@ -43,7 +42,7 @@ nav a {
 /* Top Section One */
 
 .top-wrapper {
-  background-color: #f2eeed;
+  background-color: #D8D8D8;
   display: flex;
 }
 
@@ -58,7 +57,6 @@ nav a {
   justify-content: center;
   padding-left: 24px;
   flex: 40%;
-  border: 1px solid red;
 }
 
 .top-section-one h2 {
@@ -72,7 +70,7 @@ nav a {
 }
 
 .top-one-button {
-  background-color: #3d3b3b;
+  background-color: #4A4A4A;
   margin-top: 16px;
   padding: 8px;
   text-align: center;
@@ -90,16 +88,15 @@ nav a {
 /* Column One */
 .top-section-two {
   display: flex;
-  border: 1px solid green;
+  background-color: #EAEBEC;
 }
 
 .top-two-column-one {
-  border: 1px solid green;
   margin: 32px 24px;
   flex: 60%
 }
 
-.top-two-text h3 {
+.top-two-text h2 {
   margin-top: 24px;
   margin-bottom: 24px;
   font-weight: bolder;
@@ -120,10 +117,14 @@ nav a {
   flex: wrap;
   flex-direction: column;
   width: 40%;
-  border: 1px solid red;
 }
 
-.top-two-colum-two h5 {
+.top-two-column-two a {
+  text-decoration: none;
+  color: #1E7D7D;
+}
+
+.top-two-colum-two h4 {
   margin-bottom: 8px;
   font-weight: bold;
 }
@@ -136,68 +137,71 @@ nav a {
 .orientation-row {
   flex: 60%;
   display: flex;
+  border-bottom: 1px solid #D8D8D8;
+  margin-right: 10px;
 }
 
 .orientation-img {
   width: 35%;
-  margin: 20px 30px 0 0;
+  margin-right: 10px;
   align-self: center;
 }
 
 .orientation-text {
   width: 65%;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .campus-row {
   flex: 60%;
   display: flex;
+  border-bottom: 1px solid #D8D8D8;
+  margin-right: 10px;
 }
 
 .campus-img {
   width: 35%;
-  margin: 20px 30px 0 0;
+  margin-right: 10px;
   align-self: center;
 }
 
 .campus-text {
   width: 65%;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .guest-row {
   flex: 60%;
   display: flex;
+  margin-right: 10px;
 }
 
 .guest-img {
   width: 35%;
-  margin: 20px 30px 0 0;
+  margin-right: 10px;
   object-fit: contain;
   align-self: center;
 }
 
 .guest-text {
   width: 65%;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 /* Mid Section */
 
 .mid-section {
-  border: 1px solid green;
-  background-color: #dbcece;
+  background-color: #F3F5F5;
+  padding-top: 10px;
 }
 
 .mid-headline {
   text-align: center;
   margin: 32px 0;
-  border: 1px solid red;
 }
 
 .images-container {
   margin: 0 72px 32px 72px;
-  border: 1px solid green;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -208,11 +212,10 @@ nav a {
   width: 300px;
   text-align: left;
   margin: 0 32px 32px 0;
-  border: 1px solid red;
   background-color: white;
 }
 
-.image h5 {
+.image h4 {
   padding: 16px 16px 0 16px;
 }
 
@@ -221,19 +224,23 @@ nav a {
 }
 
 /* Bottom Section */
-/* Column One */
-.bottom-section {
-  display: flex;
-  border: 1px solid green;
+.bottom-wrapper {
+  border-bottom: 1px solid #D8D8D8;
+  background-color: #EAEBEC;
+  position: relative;
+  bottom: 32px;
 }
 
 .bottom-headline {
-  margin: 32px 0;
   text-align: center;
+}
+/* Column One */
+.bottom-section {
+  display: flex;
+
 }
 
 .bottom-column-one {
-  border: 1px solid green;
   margin: 32px 24px;
   flex: 60%
 }
@@ -242,7 +249,7 @@ nav a {
   max-width: 100%;
 }
 
-.bottom-text h3 {
+.bottom-text h2 {
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -258,20 +265,24 @@ nav a {
   flex-direction: column;
   width: 40%;
   margin-top: 10px;
-  border: 1px solid red;
 }
 
-.bottom-column-two h5 {
+.bottom-colum-two h4 {
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
 .bottom-column-two p {
   margin-bottom: 8px;
+  font-weight: 300;
 }
 
 .fisma-row {
   display: flex;
   margin-bottom: 65px;
+  border-bottom: 1px solid #D8D8D8;
+  margin-right: 10px;
+  padding-bottom: 30px;
 }
 
 .fisma-img {
@@ -288,6 +299,9 @@ nav a {
 
 .now-row {
   display: flex;
+  margin-right: 10px;
+  position: relative;
+  bottom: 26px;
 }
 
 .now-img {
@@ -302,6 +316,8 @@ nav a {
   margin-top: 30px;
 }
 
+
+
 /* Footer Section */
 
 footer {
@@ -309,7 +325,6 @@ footer {
 }
 
 .copyright {
-  border: 3px solid green;
   float: left;
   margin-top: 16px;
   margin-left: 24px;
