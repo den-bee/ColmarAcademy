@@ -18,17 +18,36 @@ body {
 header {
   height: 64px;
   padding-top: 16px;
+  display: inline;
+}
+
+.campus ,.online ,.login {
+  display: none;
 }
 
 .logo {
+  position: relative;
+  top: 16px;
   float: left;
   height: 32px;
   margin-left: 24px;
 }
 
+.colmar {
+  position: relative;
+  top: 16px;
+  height: 32px;
+  margin-left: 64px;
+}
+
+.colmar span {
+  font-weight: lighter;
+}
+
 nav {
-  display: inline;
+  position: relative;
   float: right;
+  bottom: 16px;
   margin-right: 24px;
 }
 
@@ -44,6 +63,7 @@ nav a {
 .top-wrapper {
   background-color: #D8D8D8;
   display: flex;
+  clear: both;
 }
 
 .top-one-banner {
@@ -233,15 +253,15 @@ nav a {
 
 .bottom-headline {
   text-align: center;
+  padding: 32px 0;
 }
 /* Column One */
 .bottom-section {
   display: flex;
-
 }
 
 .bottom-column-one {
-  margin: 32px 24px;
+  margin: 0 24px;
   flex: 60%
 }
 

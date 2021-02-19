@@ -1,0 +1,161 @@
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* Header Section */
+  .logo {
+    top: 0 !important;
+  }
+
+  .logo ,.campus ,.online ,.login {
+    display: inline-block !important;
+    margin: 5px 32px;
+  }
+
+  .colmar {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  /* Top Section One */
+  .top-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .top-one-button {
+    margin-bottom: 16px;
+
+  }
+
+  /* Top Section Two */
+  .top-section-two {
+    width: 100%;
+  }
+
+  .top-two-column-one {
+    display: none;
+  }
+
+  .top-two-column-two {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .orientation-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .orientation-img {
+    position: relative;
+    top: 50px;
+  }
+
+  .campus-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .campus-img {
+    position: relative;
+    top: 50px;
+  }
+
+  .guest-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .guest-img {
+    position: relative;
+    top: 50px;
+  }
+
+  /* Mid Section */
+
+  .mid-section img {
+    display: none;
+  }
+
+  .mid-section p {
+    display: none;
+  }
+
+  .images-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image {
+      background-color: #4A4A4A !important;
+      margin: 8px !important;
+      padding-bottom: 5px !important;
+      padding-top: 0px !important;
+      text-align: center !important;
+      font-size: 16px;
+      width: 100%;
+    }
+
+  .image h4 {
+    background-color: #4A4A4A;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  /* Bottom Section */
+
+  footer {
+    height: 56px;
+  }
+
+  .bottom-column-two {
+    display: none !important;
+  }
+
+  .bottom-text h3 {
+    display: none !important;
+  }
+
+  .terms {
+    display: none !important;
+  }
+
+  .copyright p {
+    display: inline-block !important;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
