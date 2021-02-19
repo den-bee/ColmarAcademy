@@ -134,6 +134,10 @@
     display: none !important;
   }
 
+  .bottom-text p {
+    display: none !important;
+  }
+
   .terms {
     display: none !important;
   }
